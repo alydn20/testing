@@ -1,0 +1,31 @@
+baseURL = 'https://hugo-roan-six.vercel.app/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "paper"
+
+disqusShortname = 'Aliyudin'   # use disqus comments
+
+[params]
+  # color style
+  color = 'light'                           # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'https://twitter.com/Malydn20'               # twitter.com/YOUR_TWITTER_ID
+  github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
+  linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  rss = true                                # show rss icon
+
+
+  # home page profile
+  avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
+  name = 'YOUR_NAME'
+  bio = 'YOUR_BIO'
+
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+  math = true                               # enable KaTex math typesetting globally
